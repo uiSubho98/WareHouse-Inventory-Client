@@ -1,0 +1,29 @@
+.deposito-details-video{
+    position: relative;
+    top: 545px;
+    right:250px;
+    width: auto;
+    height:auto;
+    transform:scale(0.65)
+    
+}
+
+@media screen and (max-width:767px){
+    .deposito-details-video{
+        position: relative;
+        top: 105px;
+        right: 505px;
+        width: 100%;
+        height:100%;
+    }
+    .video-details{
+            position:relative;
+            margin-top: 50px;
+            width: 100%;
+            height: 760px;
+    }
+
+    .banner-details{
+        transform:scale(0.3)
+    }
+}

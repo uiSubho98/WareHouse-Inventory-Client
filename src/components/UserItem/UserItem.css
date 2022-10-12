@@ -1,0 +1,33 @@
+.card-container {
+    margin: 75px;
+    position: relative;
+    width: 892px;
+  }
+
+  .myItem-image{
+    width:45px;
+    height:90px
+  }
+  .del-btn{
+    border:none;
+    outline:none;
+    background-color: red;
+    color: white;
+    padding:5px;
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width:767px){
+    .card-container {
+      margin: 0px;
+      position: relative;
+      width: 100%;
+    }
+    .myItem-image {
+      height:70px;
+      width:100%!important;
+    }
+  
+  }
+
+ 

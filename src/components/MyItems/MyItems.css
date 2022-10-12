@@ -1,0 +1,35 @@
+.myItems-container{
+    position: relative;
+    top: 108px;
+}
+.card-myItems{
+    flex-direction: row;
+    align-items: center;
+  }
+  .card-title-myItems {
+    font-weight: bold;
+  }
+  .card-myItems img {
+    width: 30%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+  @media only screen and (max-width: 768px) {
+    a {
+      display: none;
+    }
+    .card-body-myItems {
+      padding: 0.5em 1.2em;
+    }
+    .card-body-myItems .card-text-myItems {
+      margin: 0;
+    }
+    .card-myItems img {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .card-myItems img {
+      width: 40%;
+    }
+  }

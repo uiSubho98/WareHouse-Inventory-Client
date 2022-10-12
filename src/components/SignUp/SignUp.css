@@ -1,0 +1,33 @@
+.signup{
+    position: relative;
+    left:91px
+}
+
+.signup-container{
+    margin-bottom: 5px;
+    margin-left: 95px;
+    width: 1150px;
+    margin: 20px;
+}
+.form-container{
+    height:auto;
+    margin-bottom: 0;
+}
+.btn-sign-login{
+    border:none;
+    outline:none;
+    background:none;
+    color: rgb(16, 172, 55);
+}
+
+@media screen and (max-width:767px){
+    .signup{
+        position: relative;
+        top: 8px;
+    }
+    .signup-container{
+        width: 100%;
+        position: relative;
+        right:92px;
+    }
+}

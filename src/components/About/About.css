@@ -1,0 +1,31 @@
+.about-container{
+    position: relative;
+    top: 105px;
+   
+}
+.left-about{
+    position: relative;
+    top: 125px;
+    left: 485px;
+   transform:scale(2.0)
+}
+.right-about{
+    position: relative;
+    top: 205px;
+    left: 140px;
+    padding-bottom: 5px;
+}
+@media screen and (max-width:767px){
+    .left-about{
+        position: relative;
+        top: 15px;
+        left: 280px;
+       transform:scale(2.5)
+    }
+    .right-about{
+        position: relative;
+        top: 135px;
+        left: 85px;
+        transform:scale(1.3);
+    }
+}
